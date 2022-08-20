@@ -1,7 +1,11 @@
+body{
+    font-family: $font;
+}
+
 .container{
     width: 1240;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 86px;
+    padding-left: 86px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -17,4 +21,8 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+button{
+    cursor: pointer;
 }

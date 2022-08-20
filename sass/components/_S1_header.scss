@@ -1,0 +1,62 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: baseline;
+}
+.header-logo {
+  font-family: $title-font;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: $main-color;
+  margin-left: 50px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: $main-color;
+  margin-left: auto;
+}
+
+.header-nav__link{padding:25px 0;
+transition: color $transition;
+&:hover,
+&:focus,
+&:active{
+    color: $pink-color;
+}
+}
+
+.button-s1 {
+  font-family: $font;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  background-color:$main-color ;
+  color: $pink-color;
+  border-radius: 124px;
+  border: none;
+  min-width: 163px ;
+  padding: 12px 43px;
+  margin-left: 48px;
+  transition: background-color $transition, color $transition;
+  
+&:hover,
+&:focus,
+&:active{
+    background-color: $pink-color;
+    color: $main-color;
+}
+}
