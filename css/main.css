@@ -143,7 +143,7 @@ img {
 .title-s1--black {
   position: absolute;
   bottom: 28%;
-  left: 36%;
+  left: 40%;
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   font-size: 130px;
@@ -158,7 +158,7 @@ img {
 .img-s2 {
   position: absolute;
   bottom: -7%;
-  left: 10%;
+  left: 20%;
   width: 1100px;
 }
 
@@ -205,7 +205,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 150px 250px;
+  padding: 210px 360px;
 }
 
 .title-s3 {
@@ -270,10 +270,18 @@ img {
 }
 
 .s5 {
-  padding: 96px 160px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .s5-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+}
+
+.s5-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,10 +289,45 @@ img {
       flex-wrap: wrap;
 }
 
-.s5-list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.title-wrap {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 96px;
+  text-align: center;
+}
+
+.img-s5--left {
+  width: 580px;
+  height: 500px;
+}
+
+.title-s5--right {
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 1.06;
+  color: #FFCCBC;
+  margin-bottom: 32px;
+}
+
+.img-s5--right {
+  width: 400px;
+  height: 440px;
+  margin-left: 100px;
+}
+
+.title-s5--left {
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 1.06;
+  color: #0B4141;
+  margin-bottom: 32px;
+}
+
+.text-s5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #0B4141;
 }
 
 .img-s7 {
