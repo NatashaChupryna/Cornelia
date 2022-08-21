@@ -1,0 +1,42 @@
+.s6 {
+  padding-top: 120px;
+  padding-bottom: 370px;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.6);
+  background-image: url(../images/s6/img.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.s6-container {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.title-s6 {
+  font-family: $title-font;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 1.06;
+  color: $pink-color;
+  margin-bottom: 24px;
+}
+.text-s6 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $main-color;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.text-s6--bold {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $main-color;
+}

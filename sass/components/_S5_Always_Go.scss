@@ -1,49 +1,54 @@
-.s5{
-   padding-top: 96px;
-   padding-bottom: 96px;
+.s5 {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
-.s5-list{
-    display: flex;
-    gap: 70px;
+.s5-list {
+  display: flex;
+  gap: 70px;
 }
 
-.s5-list-item{
-    display: flex;
-    flex-wrap: wrap;
-
+.s5-list-item {
+  display: flex;
+  flex-wrap: wrap;
 }
-.title-wrap{
-    flex-basis: 50%;
-    padding-left: 96px;
-    text-align: center;
+.title-wrap {
+  flex-basis: 50%;
+  padding-top: 70px;
+  padding-left: 96px;
+  text-align: center;
 }
-.img-s5--left{
-        width: 580px;
-    height: 500px;
+.img-s5--left {
+  width: 580px;
+  height: 500px;
 }
-.title-s5--right{font-weight: 900;
-font-size: 68px;
-line-height: 1.06;
-color: $pink-color;
-margin-bottom: 32px;
-}
-
-.img-s5--right{
- width: 400px;
-    height: 440px;
-    margin-left: 100px;
+.title-s5--right {
+  font-family: $title-font;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 1.06;
+  color: $pink-color;
+  margin-bottom: 32px;
 }
 
+.img-s5--right {
+  width: 400px;
+  height: 440px;
+  margin-left: 100px;
+}
 
-.title-s5--left{font-weight: 900;
-font-size: 68px;
-line-height: 1.06;
-color: $main-color;
-margin-bottom: 32px;}
+.title-s5--left {
+  font-family: $title-font;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 1.06;
+  color: $main-color;
+  margin-bottom: 32px;
+}
 
-.text-s5{
-font-weight: 400;
-font-size: 24px;
-line-height: 1.33;
-color: $main-color;}
+.text-s5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $main-color;
+}
