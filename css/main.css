@@ -320,6 +320,7 @@ img {
 @media screen and (min-width: 1200px) {
   .title-s3 {
     font-size: 90px;
+    width: 800px;
   }
 }
 
@@ -343,6 +344,7 @@ img {
 @media screen and (min-width: 1200px) {
   .text-s3 {
     font-size: 24px;
+    width: 700px;
   }
 }
 
@@ -455,6 +457,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 70px;
+  margin-left: -40px;
 }
 
 .s5-list-item {
@@ -466,11 +469,12 @@ img {
 }
 
 .title-wrap {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
   padding-top: 70px;
   padding-left: 70px;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .img-s5--left {
