@@ -25,6 +25,10 @@
     }
 }
 
+.app-store-link{
+  width: 40px;
+  height: 40px;
+}
 .app-store-icon {
   margin-bottom: 22px;
   width: 40px;
@@ -84,6 +88,14 @@
   line-height: 1.05;
   color: $main-color;
   background-color: transparent;
+  transition: background-color $transition, color $transition;
+
+&:hover,
+  &:focus,
+  &:active {
+    background-color: $main-color;
+    color: $pink-color;
+  }
 
   @media screen and (min-width: 1200px){
       font-size: 18px;

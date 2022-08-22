@@ -39,7 +39,11 @@
 }
 
 .article-wrap {
-
+ @media screen and (min-width: 768px){
+  justify-content: center;
+     display: flex;
+    gap: 14px;
+ }
    @media screen and (min-width: 1200px){
     justify-content: center;
      display: flex;
@@ -49,7 +53,7 @@
 
 .article-list {
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 768px){
      flex-basis: 304px;
   }
 }

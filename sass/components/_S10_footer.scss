@@ -60,6 +60,15 @@
   line-height: 1.25;
   color: $pink-color;
   border-bottom: 2px solid $main-color;
+  transition: background-color $transition, color $transition;
+
+  &:hover,
+  &:focus {
+    background-color: $pink-color;
+    color: $main-color;
+    font-weight: 700;
+    border-bottom: none;
+  }
 
   @media screen and (min-width: 1200px){
      min-width: 264px;
@@ -75,12 +84,14 @@
      margin-right: 12px;
   }
 }
+
+
 .btn-img {
   width: 26px;
   height: 15px;
   margin-right: 4px;
 
-   @media screen and (min-width: 1200px){
+   @media screen and (min-width: 768px){
     width: 34px;
   height: 30px;
   margin-right: 12px;

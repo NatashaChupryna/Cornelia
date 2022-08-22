@@ -73,7 +73,14 @@ font-size: 68px;
   border: 2px solid $pink-color;
   border-radius: 100px;
    text-shadow: .07em 0 $main-color;
+transition: background-color $transition, color $transition;
 
+&:hover,
+  &:focus,
+  &:active {
+    background-color: $pink-color;
+    color: $main-color;
+  }
    @media screen and (min-width: 1200px){
       font-size: 18px;
       padding: 14px 31px;
