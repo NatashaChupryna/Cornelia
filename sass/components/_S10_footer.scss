@@ -1,0 +1,73 @@
+.s10 {
+  background-color: $main-color;
+  padding-top: 236px;
+  padding-bottom: 94px;
+}
+
+.s10-container {
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.footer-title {
+  font-family: $title-font;
+  font-weight: 900;
+  font-size: 90px;
+  letter-spacing: 0.02em;
+  color: $pink-color;
+  margin-bottom: 48px;
+}
+.btn-list {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-bottom: 96px;
+}
+
+.footer-btn {
+  cursor: pointer;
+  border: 2px solid $pink-color;
+  border-radius: 300px;
+  min-width: 264px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  padding: 25px 40px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $pink-color;
+  border-bottom: 2px solid $main-color;
+}
+
+.footer-btn-icon {
+  margin-right: 12px;
+}
+.btn-img {
+  width: 34px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.footer-logo {
+  margin-left: -100px;
+  text-align: left;
+}
+
+.logo {
+  font-family: $title-font;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: $pink-color;
+  margin-bottom: 8px;
+}
+
+.logo-uppertitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: $pink-color;
+}

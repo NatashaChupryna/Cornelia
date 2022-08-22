@@ -1,13 +1,22 @@
-body{
-    font-family: $font;
+body {
+  font-family: $font;
 }
 
-.container{
-    width: 1240;
-    padding-right: 86px;
-    padding-left: 86px;
-    margin-right: auto;
-    margin-left: auto;
+.container {
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 480px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+@media screen and (min-width: 1200px){
+    width: 1240px;
+  padding-right: 86px;
+  padding-left: 86px;
+}
+
 }
 
 .visuaaly-hidden {
@@ -23,6 +32,6 @@ body{
   margin: -1px;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }

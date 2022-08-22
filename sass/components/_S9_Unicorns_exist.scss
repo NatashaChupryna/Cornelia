@@ -1,0 +1,56 @@
+.s9 {
+  padding-top: 180px;
+  padding-bottom: 94px;
+  background-image: url(../images/s9/img.png),
+    radial-gradient(circle at bottom right, $pink-color 3%, #ffffff 30%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, bottom right;
+}
+
+.s9-container {
+  width: 500px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.app-store-icon {
+  fill: #6666ee;
+  margin-bottom: 32px;
+}
+
+.title-s9 {
+  font-family: $title-font;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 1.06;
+  color: $main-color;
+  margin-bottom: 32px;
+}
+
+.text-s9 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $main-color;
+  margin-bottom: 48px;
+}
+
+.text-s9--bold {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $main-color;
+}
+
+.button-s9 {
+  min-width: 225px;
+  height: 54px;
+  border: 2px solid #0b4141;
+  border-radius: 100px;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.38;
+  color: $main-color;
+  background-color: transparent;
+}

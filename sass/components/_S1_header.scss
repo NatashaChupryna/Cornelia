@@ -1,6 +1,6 @@
-.header{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-nav {
@@ -10,53 +10,69 @@
 .header-logo {
   font-family: $title-font;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.02em;
   text-align: center;
   color: $main-color;
-  margin-left: 50px;
+  margin-left: 10px;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 50px;
+    font-size: 26px;
+  }
 }
 
 .header-nav-list {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  font-family: $font;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.37;
-  color: $main-color;
-  margin-left: auto;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-family: $font;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+    color: $main-color;
+    margin-left: auto;
+  }
 }
 
-.header-nav__link{padding:25px 0;
-transition: color $transition;
-&:hover,
-&:focus,
-&:active{
+.header-nav__link {
+  padding: 25px 0;
+  transition: color $transition;
+  &:hover,
+  &:focus,
+  &:active {
     color: $pink-color;
-}
+  }
 }
 
 .button-s1 {
   font-family: $font;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.37;
-  background-color:$main-color ;
+  background-color: $main-color;
   color: $pink-color;
   border-radius: 124px;
   border: none;
-  min-width: 163px ;
-  padding: 12px 43px;
-  margin-left: 48px;
+  min-width: 93px;
+  padding: 5px 15px;
+  margin-left: auto;
   transition: background-color $transition, color $transition;
-  
-&:hover,
-&:focus,
-&:active{
+
+  &:hover,
+  &:focus,
+  &:active {
     background-color: $pink-color;
     color: $main-color;
-}
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 12px 43px;
+    font-size: 16px;
+    margin-left: 48px;
+    min-width: 163px;
+  }
 }

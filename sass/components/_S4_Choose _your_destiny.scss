@@ -1,38 +1,79 @@
-.s4{
-    background-color: #0B4141;
-padding-top: 100px;
-padding-left: 90px;
-padding-bottom: 85px;
-background-image: url(../images/s4/img.png);
-background-size: contain;
-background-repeat: no-repeat;
-background-position: bottom right;
-text-align: left;
+.s4 {
+  background-color: #0b4141;
+  padding-top: 80px;
+  padding-bottom: 130px;
+  background-image: url(../images/s4/img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  @media screen and (min-width: 1200px){
+      padding-top: 100px;
+  padding-bottom: 85px;
+  }
+
+}
+.s4-container {
+ text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+
+  @media screen and (min-width: 1200px){
+      padding-left: 90px;
+      padding-right: 0;
+      text-align: left;
+  }
 }
 
-.title-s4{
-    width: 470px;
-    font-weight: 900;
+.title-s4 {
+ 
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.05;
+  color: $pink-color;
+  margin-bottom: 20px;
+  line-height: 1.5;
+
+
+  @media screen and (min-width: 1200px){
 font-size: 68px;
-line-height: 1.05;
-color: $pink-color;
-margin-bottom: 32px;
+ width: 470px;
+ line-height: 1.05;
+  margin-bottom: 32px;
+  }
 }
 
-.text-s4{
-    width: 470px;
-    font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-color: $pink-color;
-margin-bottom: 48px;}
+.text-s4 {
+  width: 250px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.05;
+  color: $pink-color;
+  margin-bottom: 48px;
+  margin-left: -10px;
 
-.button-s4{font-weight: 700;
-font-size: 18px;
-line-height: 25px;
-color: $pink-color;
-padding: 14px 31px;
-background-color: transparent;
-border: 2px solid $pink-color;
-border-radius: 100px;
+  @media screen and (min-width: 1200px){
+      font-size: 22px;
+       width: 470px;
+       margin-left: 0;
+        line-height: 1.66;
+  }
+}
+
+.button-s4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $pink-color;
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 2px solid $pink-color;
+  border-radius: 100px;
+   text-shadow: .07em 0 $main-color;
+
+   @media screen and (min-width: 1200px){
+      font-size: 18px;
+      padding: 14px 31px;
+      line-height: 1.78;
+   }
 }

@@ -86,7 +86,7 @@
       </section>
       <!-- -----------***| Section 3  |***---------- -->
       <section class="s3">
-        <div class="container">
+        <div class="container s3-container">
           <h2 class="title-s3">Toward infinity and beyond</h2>
           <p class="text-s3">
             Discover your new favourite mascot. With her, boost your imagination
@@ -183,10 +183,10 @@
 
       <!-- -----------***| Section 7  |***---------- -->
       <section class="s7">
-        <div class="container">
+        <div class="container s7-container">
           <h3 class="title-s7">They talk about it better than us</h3>
           <div class="article-wrap">
-          <ul class="aryicle-list">
+          <ul class="article-list">
             <li class="article-list-item">
               <article class="feedback">
                 You've saved our business! Since I invested in Cornelia I made
@@ -266,7 +266,7 @@
             </li>
           </ul>
 
-          <ul class="aryicle-list">
+          <ul class="article-list">
             <li class="article-list-item">
               <article class="feedback">
                 Without Cornelia, we would have gone bankrupt by now
@@ -343,7 +343,7 @@
             </li>
           </ul>
 
-          <ul class="aryicle-list">
+          <ul class="article-list">
             <li class="article-list-item">
               <article class="feedback">
                 We've seen amazing results already. Buy this now. I couldn't
@@ -395,6 +395,10 @@
               </article>
             </li>
           </ul>
+          <img 
+          src="./images/s7/img1.png" 
+          alt="horse"
+          class="s7-img">
           </div>
         </div>
       </section>
@@ -439,7 +443,8 @@
 
       <!-- -----------***| Section 9  |***---------- -->
       <section class="s9">
-        <div class="container">
+        <div class="container ">
+          <div class="s9-container">
           <svg class="app-store-icon" width="118" height="118">
             <use href="./images/icons.svg#app-store"></use>
           </svg>
@@ -448,9 +453,10 @@
           <p class="text-s9">
             Download our appliaction on the AppStore or the 3D model of Cornelia
             and meet your new mascot ! Take some cool pictures of her and share
-            it on Instagram, Twitter and Facebook with #CorneliaTheUnicorn!
+            it on Instagram, Twitter and Facebook with <span class="text-s9--bold">#CorneliaTheUnicorn!</span> 
           </p>
           <button class="button-s9" type="button">Meet Cornelia in VR</button>
+        </div>
         </div>
       </section>
     </main>
@@ -458,20 +464,30 @@
     <!-- -----------***| Section 10 Footer  |***---------- -->
     <footer>
       <section class="s10">
-        <div class="container">
+        <div class="container s10-container">
           <h2 class="footer-title">Get started with Cornelia today</h2>
 
           <ul class="btn-list">
             <li class="btn-list_item">
-              <button class="footer-btn">
-                <svg></svg>
+              <button class="footer-btn" type="button">
+                <svg 
+                class="footer-btn-icon" 
+                width="22" 
+                height="30">
+                <use href="./images/icons.svg#Figma"></use>
+                </svg>
                 Download for Figma
               </button>
             </li>
 
             <li class="btn-list_item">
-              <button class="footer-btn">
-                <div class="btn-img"></div>
+              <button class="footer-btn" type="button">
+                <img 
+                src="./images/diamond.png" 
+                alt="diamond"
+                class="btn-img"> 
+                
+                
                 Download for Sketch
               </button>
             </li>
