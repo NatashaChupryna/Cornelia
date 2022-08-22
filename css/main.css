@@ -190,9 +190,9 @@ img {
 .title-s1--black {
   position: absolute;
   bottom: 42%;
-  left: 35%;
-  -webkit-transform: translate(-42% -35%);
-          transform: translate(-42% -35%);
+  left: 50%;
+  -webkit-transform: translate(-42% -50%);
+          transform: translate(-42% -50%);
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   font-size: 40px;
