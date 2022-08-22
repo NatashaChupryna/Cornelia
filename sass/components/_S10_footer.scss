@@ -1,7 +1,7 @@
 .s10 {
   background-color: $main-color;
   padding-top: 106px;
-  padding-bottom: 54px;
+  padding-bottom: 24px;
 
   @media screen and (min-width: 1200px){
     padding-top: 236px;
@@ -37,7 +37,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 46px;
+  margin-bottom: 80px;
 
   @media screen and (min-width: 1200px){
       gap: 48px;
