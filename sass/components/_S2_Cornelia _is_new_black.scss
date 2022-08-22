@@ -19,7 +19,7 @@
   }
 }
 
-.title-s1 {
+.title-s2 {
   font-family: $title-font;
   font-weight: 900;
   font-size: 36px;
@@ -30,7 +30,7 @@
   }
 }
 
-.title-s1--black {
+.title-s2--black {
   position: absolute;
   bottom: 35%;
   left: 50%;
@@ -47,8 +47,9 @@
   @media screen and (min-width: 1200px) {
     font-size: 130px;
     position: absolute;
-    bottom: 28%;
-    left: 40%;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%, -18%);
   }
 }
 
@@ -57,8 +58,10 @@
   bottom: -5%;
   left: 0;
   width: 400px;
- 
 
+  @media screen and (min-width: 768px){
+        left: 25%;
+  }
   @media screen and (min-width: 1200px) {
     width: 1100px;
     position: absolute;

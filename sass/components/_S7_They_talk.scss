@@ -62,9 +62,12 @@
 
     &:nth-child(2n) {
   display: none;
-
   @media screen and (min-width: 1200px){
-    display: contents;
+    display: block;
+  }
+
+    @media screen and (min-width: 768px){
+   flex-basis: 304px;
   }
 }
 }
@@ -108,6 +111,7 @@ margin-top: 5px;
   line-height: 1.18;
   color: $main-color;
   margin-left: 12px;
+  margin-bottom: 4px;
 @media screen and (min-width: 1200px){
 font-size: 16px;
 }
@@ -124,14 +128,4 @@ font-size: 14px;
   }
 }
 
-.s7-img {
-  display: none;
 
-  @media screen and (min-width: 1200px){
-     position: absolute;
-    bottom: 0;
-  left:40%;
-  width: 440px;
-  height: 280px;
-  }
-}
