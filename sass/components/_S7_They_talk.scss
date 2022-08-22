@@ -124,13 +124,10 @@ font-size: 14px;
 }
 
 .s7-img {
-  position: absolute;
-  bottom: 0;
-  left:40%;
-  width: 440px;
-  height: 280px;
+  display: none;
 
   @media screen and (min-width: 1200px){
+     position: absolute;
     bottom: 0;
   left:40%;
   width: 440px;

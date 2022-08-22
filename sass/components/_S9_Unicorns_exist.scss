@@ -1,16 +1,18 @@
 .s9 {
-  padding-top: 60px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 194px;
   background-image: url(../images/s9/img.png),
     radial-gradient(circle at bottom right, $pink-color 3%, #ffffff 30%);
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom right, bottom right;
-   background-size: 300px;
+  background-position: bottom right -50px, bottom right;
+   background-size: 400px;
 
   @media screen and (min-width: 1200px) {
     padding-top: 180px;
   padding-bottom: 94px;
  background-size: cover;
+background-position: bottom right, bottom right;
+
    }
 }
 

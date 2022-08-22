@@ -189,10 +189,10 @@ img {
 
 .title-s1--black {
   position: absolute;
-  bottom: 42%;
+  bottom: 35%;
   left: 50%;
-  -webkit-transform: translate(-42% -50%);
-          transform: translate(-42% -50%);
+  -webkit-transform: translate(-50%, -35%);
+          transform: translate(-50%, -35%);
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   font-size: 40px;
@@ -689,14 +689,11 @@ img {
 }
 
 .s7-img {
-  position: absolute;
-  bottom: 0;
-  left: 40%;
-  width: 440px;
-  height: 280px;
+  display: none;
 }
 @media screen and (min-width: 1200px) {
   .s7-img {
+    position: absolute;
     bottom: 0;
     left: 40%;
     width: 440px;
@@ -778,18 +775,19 @@ img {
 }
 
 .s9 {
-  padding-top: 60px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 194px;
   background-image: url(../images/s9/img.png), radial-gradient(circle at bottom right, #FFCCBC 3%, #ffffff 30%);
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom right, bottom right;
-  background-size: 300px;
+  background-position: bottom right -50px, bottom right;
+  background-size: 400px;
 }
 @media screen and (min-width: 1200px) {
   .s9 {
     padding-top: 180px;
     padding-bottom: 94px;
     background-size: cover;
+    background-position: bottom right, bottom right;
   }
 }
 
