@@ -1,73 +1,120 @@
 .s10 {
   background-color: $main-color;
-  padding-top: 236px;
+  padding-top: 106px;
+  padding-bottom: 54px;
+
+  @media screen and (min-width: 1200px){
+    padding-top: 236px;
   padding-bottom: 94px;
+  }
 }
 
 .s10-container {
   text-align: center;
-  padding-right: 250px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  @media screen and (min-width: 1200px){
+    padding-right: 250px;
   padding-left: 250px;
+  }
 }
 
 .footer-title {
   font-family: $title-font;
   font-weight: 900;
-  font-size: 90px;
+  font-size: 38px;
   letter-spacing: 0.02em;
   color: $pink-color;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
+
+  @media screen and (min-width: 1200px){
+      font-size: 90px;
+      margin-bottom: 48px;
+   }
 }
 .btn-list {
   display: flex;
-  gap: 48px;
+  gap: 10px;
   justify-content: center;
-  margin-bottom: 96px;
+  margin-bottom: 46px;
+
+  @media screen and (min-width: 1200px){
+      gap: 48px;
+       margin-bottom: 96px;
+  }
 }
 
 .footer-btn {
   cursor: pointer;
   border: 2px solid $pink-color;
   border-radius: 300px;
-  min-width: 264px;
-  height: 82px;
+  min-width: 124px;
+  height: 42px;
   display: flex;
   align-items: center;
-  padding: 25px 40px;
+  padding: 5px 15px;
   background-color: transparent;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.25;
   color: $pink-color;
   border-bottom: 2px solid $main-color;
+
+  @media screen and (min-width: 1200px){
+     min-width: 264px;
+  height: 82px;
+  font-size: 16px;
+   padding: 25px 40px;
+  }
 }
 
 .footer-btn-icon {
-  margin-right: 12px;
+  margin-right: 5px;
+  @media screen and (min-width: 1200px){
+     margin-right: 12px;
+  }
 }
 .btn-img {
-  width: 34px;
+  width: 26px;
+  height: 15px;
+  margin-right: 4px;
+
+   @media screen and (min-width: 1200px){
+    width: 34px;
   height: 30px;
   margin-right: 12px;
+   }
 }
 
 .footer-logo {
-  margin-left: -100px;
+  margin-left: -10px;
   text-align: left;
+  @media screen and (min-width: 1200px){
+      margin-left: -100px;
+  }
 }
 
 .logo {
   font-family: $title-font;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.2;
   color: $pink-color;
   margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px){
+        font-size: 20px;
+    }
 }
 
 .logo-uppertitle {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 10px;
   line-height: 1.37;
   color: $pink-color;
+
+     @media screen and (min-width: 1200px){
+        font-size: 16px;
+     }
 }
