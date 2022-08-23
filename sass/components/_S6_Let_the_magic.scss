@@ -8,25 +8,23 @@
   background-position: bottom;
   background-size: contain;
 
-   @media screen and (min-width: 768px){
-     padding-bottom: 220px;
-   }
+  @media screen and (min-width: 768px) {
+    padding-bottom: 220px;
+  }
 
-   @media screen and (min-width: 1200px){ 
-      padding-top: 120px;
-  padding-bottom: 370px;
-
-   }
+  @media screen and (min-width: 1200px) {
+    padding-top: 120px;
+    padding-bottom: 370px;
+  }
 }
 
 .s6-container {
   padding-left: 50px;
   padding-right: 50px;
 
-  @media screen and (min-width: 1200px){
-     padding-left: 250px;
-  padding-right: 250px;
-
+  @media screen and (min-width: 1200px) {
+    padding-left: 250px;
+    padding-right: 250px;
   }
 }
 
@@ -37,9 +35,10 @@
   line-height: 1.06;
   color: $pink-color;
   margin-bottom: 24px;
+  text-shadow: 1px 1px 1px #0b4141;
 
-  @media screen and (min-width: 1200px){
-     font-size: 80px;
+  @media screen and (min-width: 1200px) {
+    font-size: 80px;
   }
 }
 .text-s6 {
@@ -53,9 +52,9 @@
     margin-bottom: 0;
   }
 
-    @media screen and (min-width: 1200px){
-     font-size: 24px;
-       margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    margin-bottom: 30px;
   }
 }
 
@@ -65,7 +64,7 @@
   line-height: 1.33;
   color: $main-color;
 
-    @media screen and (min-width: 1200px){
-     font-size: 24px;
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
   }
 }

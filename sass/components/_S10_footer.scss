@@ -3,9 +3,9 @@
   padding-top: 106px;
   padding-bottom: 24px;
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     padding-top: 236px;
-  padding-bottom: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -14,9 +14,9 @@
   padding-right: 25px;
   padding-left: 25px;
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     padding-right: 250px;
-  padding-left: 250px;
+    padding-left: 250px;
   }
 }
 
@@ -27,11 +27,12 @@
   letter-spacing: 0.02em;
   color: $pink-color;
   margin-bottom: 28px;
+  text-shadow: 1px 1px 1px #ffffff;
 
-  @media screen and (min-width: 1200px){
-      font-size: 90px;
-      margin-bottom: 48px;
-   }
+  @media screen and (min-width: 1200px) {
+    font-size: 90px;
+    margin-bottom: 48px;
+  }
 }
 .btn-list {
   display: flex;
@@ -39,9 +40,9 @@
   justify-content: center;
   margin-bottom: 80px;
 
-  @media screen and (min-width: 1200px){
-      gap: 48px;
-       margin-bottom: 96px;
+  @media screen and (min-width: 1200px) {
+    gap: 48px;
+    margin-bottom: 96px;
   }
 }
 
@@ -70,39 +71,43 @@
     border-bottom: none;
   }
 
-  @media screen and (min-width: 1200px){
-     min-width: 264px;
-  height: 82px;
-  font-size: 16px;
-   padding: 25px 40px;
+  @media screen and (min-width: 1200px) {
+    min-width: 264px;
+    height: 82px;
+    font-size: 16px;
+    padding: 25px 40px;
   }
 }
 
 .footer-btn-icon {
   margin-right: 5px;
-  @media screen and (min-width: 1200px){
-     margin-right: 12px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;
   }
 }
-
 
 .btn-img {
   width: 26px;
   height: 15px;
   margin-right: 4px;
 
-   @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 34px;
-  height: 30px;
-  margin-right: 12px;
-   }
+    height: 30px;
+    margin-right: 12px;
+  }
 }
 
 .footer-logo {
-  margin-left: -30%;
+  margin-left: -1%;
   text-align: left;
-  @media screen and (min-width: 1200px){
-     margin-left: -30%;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: -30%;
   }
 }
 
@@ -114,9 +119,9 @@
   color: $pink-color;
   margin-bottom: 8px;
 
-    @media screen and (min-width: 1200px){
-        font-size: 20px;
-    }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .logo-uppertitle {
@@ -125,7 +130,7 @@
   line-height: 1.37;
   color: $pink-color;
 
-     @media screen and (min-width: 1200px){
-        font-size: 16px;
-     }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }

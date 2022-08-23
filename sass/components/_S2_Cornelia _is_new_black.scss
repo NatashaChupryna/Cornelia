@@ -4,6 +4,8 @@
   padding-top: 90px;
   padding-bottom: 200px;
   overflow: hidden;
+  background-image: radial-gradient(circle at center, $pink-color 0%, #ffffff 45%);
+
 
   @media screen and (min-width: 1200px) {
     padding-bottom: 350px;
@@ -24,6 +26,7 @@
   font-weight: 900;
   font-size: 36px;
   color: $pink-color;
+  text-shadow: 1px 1px 1px #0b4141;
 
   @media screen and (min-width: 1200px) {
     font-size: 130px;
